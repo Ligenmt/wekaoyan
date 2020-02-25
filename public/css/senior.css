@@ -1,0 +1,99 @@
+.content{
+    width:714px;
+    min-height:770px;
+    border:1px solid #F2F2F2;
+    float:left;
+    background-color:#fffeff;
+    margin-top:22px;
+    margin-bottom:20px;
+}
+
+.content .content_head{
+    height:55px;
+    line-height:55px;
+    position:relative;
+    border-bottom:1px solid #F2F2F2;
+    margin:0 20px;
+}
+
+.content .content_head{
+    height:55px;
+    line-height:55px;
+    position:relative;
+    border-bottom:1px solid #F2F2F2;
+    padding:0 20px;
+}
+.content .content_head .head_words{
+    font-size:16px;
+    color:#333;
+    font-weight:800;
+}
+
+.content .content_body{
+    margin:18px 20px;
+}
+
+.content .content_body .opration{
+    margin:20px 0px;
+    padding:0 20px;
+    border-bottom:1px solid #F2F2F2;
+}
+
+.content .content_body .opration .other_words{
+    font-size:16px;
+    color:#000;
+}
+.content .content_body .opration .opration_list{
+    margin:30px 0;
+}
+.content .content_body .opration .opration_list li{
+    height:25px;
+    line-height:25px;
+    position:relative;
+    overflow:hidden;
+}
+
+.content .content_body .opration .opration_list li div{
+    float:left;
+    color:#666;
+    font-size:14px;
+}
+
+.content .content_body .opration .opration_list li div num{
+    color:#999;
+    font-size:14px;
+    margin-right:10px;
+}
+
+.content .content_body .opration .opration_list li .focus_btn{
+    margin-left:15px;
+}
+.content .content_body .opration .opration_list li .focus_btn input{
+    height:23px;
+    color:#fff;
+    background-color:#006eff;
+    cursor:pointer;
+    padding:0 5px;
+}
+
+.content .content_body .opration .endwords{
+    color:#333;
+    font-size:16px;
+    margin-bottom:25px;
+}
+
+.content_body .reward{
+    color:#999;
+    font-size:14px;
+    line-height:24px;
+    padding:0 20px;
+}
+.content_body .reward num{
+    color:#999;
+    font-size:14px;
+    line-height:24px;
+    margin-right:10px;
+}
+.content_body .reward .bak{
+    color:#006eff;
+}

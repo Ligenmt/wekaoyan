@@ -1,0 +1,406 @@
+.main_container{
+    margin: 0 auto;
+}
+.main_container a{
+    font-size:16px;
+    color:#006EFF;
+}
+
+.main_container a:hover{
+    color:#0054c2;
+}
+
+.content{
+    width:714px;
+    border:1px solid #F2F2F2;
+    float:left;
+    background-color:#fffeff;
+    margin-top:22px;
+}
+
+.content .content_head{
+    height:55px;
+    line-height:55px;
+    position:relative;
+    border-bottom:1px solid #F2F2F2;
+    padding:0 30px;
+}
+
+.content .content_head .edit_word{
+    font-size:16px;
+    color:#666;
+    float:left;
+}
+
+.content .content_head .edit_turnback{
+    float:right;
+}
+
+.content .edit_part{
+    margin:18px 20px;
+}
+
+.content .edit_part .edit_title input{
+    font-size:16px;
+    padding:0 16px;
+    color:#333;
+    height:46px;
+    border:1px solid #F2F2F2;
+    width:640px;
+}
+
+.content .edit_part .edit_function{
+    margin-top:12px;
+    height:38px;
+    border:1px solid #F2F2F2;
+    background-color:#F8F8F8;
+}
+
+.content .edit_part .edit_function .edit_bold{
+    margin-left:26px;
+    color:#666;
+    width:9px;
+    height:12px;
+    margin-top:13px;
+    float:left;
+    cursor:pointer;
+}
+.content .edit_part .edit_function .edit_bold img{
+    width:100%;
+    height:100%;
+}
+
+.content .edit_part .edit_function .edit_underline{
+    margin-left:26px;
+    width:14px;
+    height:16px;
+    margin-top:11px;
+    float:left;
+    cursor:pointer;
+}
+.content .edit_part .edit_function .edit_underline img{
+    width:100%;
+    height:100%;
+}
+
+.content .edit_part .edit_function .edit_size{
+    margin-left:26px;
+    float:left;
+    position:relative;
+    margin-top:4px;
+}
+
+.content .edit_part .edit_function .edit_size .size_show{
+    float:left;
+    width:52px;
+    border:1px solid #F8F8F8;
+    font-size:14px;
+    height:28px;
+    line-height:28px;
+    padding-left:10px;
+    background-color:#fffeff;
+    cursor:pointer;
+}
+.content .edit_part .edit_function .edit_size .img_dropdown{
+    position:absolute;
+    height:28px;
+    width:11px;
+    top:0px;
+    left:51px;
+    cursor:pointer;
+}
+.content .edit_part .edit_function .edit_size .img_dropdown img{
+    height:100%;
+    width:100%;
+}
+.content .edit_part .edit_function .edit_size .size_panel{
+    position:absolute;
+    width:62px;
+    top:28px;
+}
+.content .edit_part .edit_function .edit_size .size_panel ul {
+    border:1px solid #F2F2F2;
+    background-color:#fff;
+}
+
+.content .edit_part .edit_function .edit_size .size_panel ul li{
+    width:52px;
+    height:28px;
+    font-size:14px;
+    color:#999;
+    line-height:28px;
+    padding-left:10px;
+    cursor:pointer;
+}
+.content .edit_part .edit_function .edit_size .size_panel ul li:hover{
+    background-color:#F2F2F2;
+}
+
+.content .edit_part .edit_function .edit_smail{
+    margin-left:20px;
+    margin-top:5px;
+    width:18px;
+    height:18px;
+    margin-top:10px;
+    float:left;
+    cursor:pointer;
+    position:relative;
+}
+.content .edit_part .edit_function .edit_smail .smailface{
+    width:100%;
+    height:100%;
+}
+
+.content .edit_part .edit_function .edit_leftalign{
+    margin-left:26px;
+    margin-top:12px;
+    width:14px;
+    height:14px;
+    float:left;
+    cursor:pointer;
+}
+.content .edit_part .edit_function .edit_leftalign img{
+    width:100%;
+    height:100%;
+}
+
+
+.content .edit_part .edit_function .edit_middlealign{
+    margin-left:10px;
+    margin-top:4px;
+    width:14px;
+    height:14px;
+    margin-top:12px;
+    float:left;
+    cursor:pointer;
+}
+.content .edit_part .edit_function .edit_middlealign img{
+    width:100%;
+    height:100%;
+}
+
+
+.content .edit_part .edit_function .edit_rightalign{
+    margin-left:10px;
+    margin-top:4px;
+    width:14px;
+    height:14px;
+    margin-top:12px;
+    float:left;
+    cursor:pointer;
+}
+.content .edit_part .edit_function .edit_rightalign img{
+    width:100%;
+    height:100%;
+}
+
+
+.content .edit_part .edit_function .edit_img{
+    margin-left:22px;
+    margin-top:4px;
+    width:21px;
+    height:15px;
+    margin-top:11px;
+    float:left;
+    cursor:pointer;
+}
+.content .edit_part .edit_function .edit_img img{
+    width:100%;
+    height:100%;
+}
+
+
+.content .edit_part .edit_function .edit_link{
+    margin-left:20px;
+    margin-top:10px;
+    width:16px;
+    height:28px;
+    margin-top:5px;
+    float:left;
+    cursor:pointer;
+}
+.content .edit_part .edit_function .edit_link img{
+    width:100%;
+    height:100%;
+}
+
+.content .edit_part .edit_body{
+    height:325px;
+    width:674px;
+    margin:0;
+    padding:0;
+    border:none;
+    overflow:hidden;
+}
+
+
+.content .edit_part .edit_body::-webkit-scrollbar{width: 8px;}
+.content .edit_part .edit_body::-webkit-scrollbar-track{background-color: #F9F9F9;}
+.content .edit_part .edit_body::-webkit-scrollbar-thumb{background-color: #EAEAEA;}
+
+.content .content_opration{
+    position:relative;
+    height:38px;
+    padding:32px 20px 16px 20px;
+}
+
+.content .content_opration .content_btn{
+    float:left;
+    position:relative;
+    margin-left:223px;
+}
+
+.content .content_opration .content_btn .edit_publish{
+    font-size:18px;
+    color:#FFF;
+    background-color:#006eff;
+    width:104px;
+    height:38px;
+    border:none;
+    cursor:pointer;
+}
+
+.content .content_opration .content_btn .edit_publish:hover{
+    background-color:#0054c2;
+}
+
+.content .content_opration .content_btn .edit_drop{
+    font-size:18px;
+    color:#999;
+    background-color:#fff;
+    width:104px;
+    height:38px;
+    margin-left:20px;
+    border:1px solid #dadada;
+    cursor:pointer;
+}
+
+.content .content_opration .content_btn .edit_drop:hover{
+    background-color:#eaeaea;
+}
+
+.content .content_opration .edit_draft {
+    float:right;
+    height:38px;
+    line-height:38px;
+    margin-right:5px;
+}
+
+
+
+/*************add_link_box*********************/
+.cover_box1 .backimgs{
+    position:fixed;
+    width:100%;
+    height:100%;
+    background-color:#000;
+    left:0;top:0;
+    opacity:0.5;
+    z-index:98;
+}
+
+.cover_box1 .add_link_box{
+    width:364px;
+    height:200px;
+    border-left:1px solid #F2F2F2;
+    border-right:1px solid #F2F2F2;
+    left:50%;
+    margin-left:-182px;
+    background-color:#fff;
+    z-index:99;
+    position:fixed;
+    overflow:hidden;
+}
+
+.cover_box1 .add_link_box .box_head{
+    overflow:hidden;
+    height:38px;
+    line-height:38px;
+    border-top:3px solid #006eff;
+    border-bottom:2px solid #F5F5F5;
+}
+.cover_box1 .add_link_box .box_head .box_title{
+    float:left;
+    font-size:16px;
+    margin-left:20px;
+    color:#333;
+}
+.cover_box1 .add_link_box .box_head .close{
+    float:right;
+    font-size:16px;
+    margin-right:8px;
+    margin-top:5px;
+}
+.cover_box1 .add_link_box .box_body{
+    margin:15px 15px;
+}
+
+.cover_box1 .add_link_box .box_body .item{
+    margin: 10px 0;
+}
+
+.cover_box1 .add_link_box .box_body .item .item_name{
+    font-size:16px;
+    color:#333;
+    margin-bottom:10px;
+}
+.cover_box1 .add_link_box .box_body .item .item_input input{
+    font-size:16px;
+    width:316px;
+    height:36px;
+    padding:0 8px;
+    color:#999;
+}
+
+.face_box{
+    position:absolute;
+    width:378px;
+    height:186px;
+    left:-165px;
+    border:1px solid #F2F2F2;
+    background-color:#F8F8F8;
+}
+
+.face_box img{
+    width:25px;
+    height:25px;
+    border:1px solid #F2F2F2;
+    padding:-1px;
+}
+
+.content .edit_part .edit_subject{
+    position:relative;
+    width:674px;
+    height:46px;
+    z-index:9;
+}
+.content .edit_part .edit_subject input{
+    width:640px;
+    height:46px;
+    font-size:16px;
+    color:#333;
+    line-height:46px;
+    padding:0 16px;
+}
+
+.content .edit_part .edit_subject ul{
+    position:absolute;
+    width:670px;
+    height:90px;
+    background-color:#f8f8f8;
+    border:1px solid #eaeaea;
+}
+
+.content .edit_part .edit_subject ul li{
+    width:656px;
+    height:28px;
+    padding:0 8px;
+    line-height:28px;
+    font-size:16px;
+    color:#999;
+    border-bottom:1px solid #f2f2f2;
+    cursor:pointer;
+}
+.content .edit_part .edit_subject ul li:hover{
+    background-color:#eaeaea;
+}

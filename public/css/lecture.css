@@ -1,0 +1,81 @@
+
+.main_container a{
+    font-size:16px;
+    color:#006EFF;
+}
+
+.main_container a:hover{
+    color:#0054c2;
+}
+
+
+.lecture_title{
+    font-size:22px;
+    color:#333;
+    margin-left:17px;
+}
+.lecture_body{
+    position:relative;
+    margin:18px 86px 0 19px;
+    overflow:hidden;
+}
+
+.lecture_body .lecture_info{
+    float:left;
+}
+.lecture_body .lecture_info .lecturer{
+    position:relative;
+    height:30px;
+    line-height:30px;
+    margin-bottom:7px;
+}
+
+.lecture_body .lecture_info .lecturer .lecturer_avatar{
+    float:left;
+    margin-right:12px;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+}
+.lecture_body .lecture_info .lecturer .lecturer_avatar img{
+    width:100%;
+    height:100%;
+}
+
+.lecture_body .lecture_info .lecturer .lecturer_name {
+    float:left;
+    margin-right:20px;
+}
+
+.lecture_body .lecture_info .lecturer .score {
+    float:left;
+    color:#666;
+
+}
+.lecture_body .lecture_info .lecturer .score font{
+    color:#006eff;
+    margin:0 3px;
+}
+
+.lecture_body .lecture_info .lecture_time{
+    color:#999;
+    font-size:14px;
+    margin-left:42px;
+}
+
+
+.lecture_body .lecture_btn input{
+    float:right;
+    font-size:18px;
+    color:#FFF;
+    background-color:#006eff;
+    width:104px;
+    height:38px;
+    border:none;
+    cursor:pointer;
+}
+
+
+.lecture_body .lecture_btn input:hover{
+    background-color:#0054c2;
+}

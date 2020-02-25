@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'PingFang_light';
+    src: url(../font/PingFang_SC_light.ttf);
+}
+@font-face {
+    font-family: 'PingFang_medium';
+    src: url(../font/PingFang_SC_medium.ttf);
+}
+html,body{height:100%;margin:0; padding:0;}
+html{overflow-y:scroll;}
+.wrap{
+}
+
+.nav-kaoyan {
+    font-size: 17px;
+}
+.main_container {
+    background: white;
+}
+
+.push_space {
+    height: 76px;
+}
+
+body{background: #d4d4d4;
+    background-size:100% 100%;
+    min-height: 100%;
+    margin-bottom: -76px;
+    /*解决bootstrap弹窗位移问题*/
+    /*overflow-y: auto !important;*/
+    padding-right: 0 !important;
+}
+
+a:link{
+    color: #006eff;
+    text-decoration:none;
+}
+a:active{
+    color:#0054c2 ;
+}
+
+ul, li { list-style-type: none; }
+img { border: 0 none;}
+
+*{
+    font-family:'Avenir','Microsoft YaHei';
+    list-style:none;
+    margin:0;
+    padding:0;
+
+}
+
+.notification-vip {
+    position: absolute;
+    bottom: 70%;
+    left: 70%;
+    padding: 0 4px;
+    font-size: 11px;
+    color: #fff;
+    background-color: #f75659;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+
+
+input{
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -ms-border-radius:2px;
+    -o-border-radius:2px;
+    border-radius:2px;
+    border:1px solid #F2F2F2;
+}
+
+::-webkit-input-placeholder { color:#999; }
+::-moz-placeholder { color:#999; } /* firefox 19+ */
+:-ms-input-placeholder { color:#999; } /* ie */
+input:-moz-placeholder { color:#999; }

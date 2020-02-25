@@ -1,0 +1,32 @@
+.item_body{
+    border:1px solid #F2F2F2;
+}
+
+.item_title{
+    color:#333;
+    font-size:16px;
+    font-weight:700;
+    margin-left:20px;
+}
+
+.item_content{
+    color:#666;
+    font-size:16px;
+    padding:0 20px;
+    line-height:26px;
+    letter-spacing:1px;
+    width:632px;
+    display:block;
+    word-wrap:break-all;
+    overflow:hidden;
+}
+
+
+ .item_body ul li{
+    margin:0px 20px;
+    padding:14px 0;
+    border-bottom:1px solid #F2F2F2;
+    letter-spacing:1px;
+    line-height:24px;
+    color:#666;
+}

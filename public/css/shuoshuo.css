@@ -1,0 +1,311 @@
+.main_container {
+    margin: 0 auto;
+    position: relative;
+}
+
+.main_container a {
+    font-size: 16px;
+    color: #006EFF;
+}
+
+.main_container a:hover {
+    color: #0054c2;
+}
+
+.main_container textarea {
+    border: 1px solid #F2F2F2;
+    word-break: break-word;
+}
+
+.content_list {
+    width: 714px;
+    border: 1px solid #F2F2F2;
+    float: left;
+    background-color: #fffeff;
+    margin-top: 22px;
+    margin-bottom: 20px;
+}
+
+.content_list .list_title {
+    height: 50px;
+    margin: 0 20px;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.content_list .list_title .publish {
+    font-size: 18px;
+    color: #006EFF;
+    height: 50px;
+    line-height: 50px;
+    float: right;
+    margin-right: 39px;
+    cursor: pointer;
+}
+
+/****************
+.content_list ul{
+    max-height: 1200px;
+	overflow-y:auto;
+}
+
+.content_list ul::-webkit-scrollbar
+{
+	width: 8px;
+}
+.content_list ul::-webkit-scrollbar-track
+{
+	background-color: #F9F9F9;
+}
+
+.content_list ul::-webkit-scrollbar-thumb
+{
+	background-color: #EAEAEA;
+}
+********************************/
+
+.content_list ul li {
+    margin: 10px 20px 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.content_list ul li .comm_head {
+    overflow: hidden;
+    margin-right: 17px;
+    position: relative;
+}
+
+.content_list ul li .comm_head .comm_avatar {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.content_list ul li .comm_head .comm_avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.content_list ul li .comm_head .comm_info {
+    float: left;
+    margin-left: 10px;
+}
+
+.content_list ul li .comm_head .comm_info .comm_title {
+    position: relative;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #333;
+    margin-top: 5px;
+    width: 380px;
+    overflow: hidden;
+    word-break: break-all;
+    cursor: pointer;
+    text-align: justify;
+}
+
+.content_list ul li .comm_head .comm_info .comm_evaluate {
+    position: relative;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.content_list ul li .comm_head .comm_info .comm_evaluate .comm_replay {
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.content_list ul li .comm_head .comm_info .comm_evaluate .comm_replay img {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    margin-top: 2px;
+}
+
+.content_list ul li .comm_head .comm_info .comm_evaluate .comm_replay p {
+    float: left;
+    font-size: 14px;
+    margin: 0 4px;
+    color: #006EFF;
+}
+
+.content_list ul li .comm_head .comm_info .comm_evaluate .comm_praise {
+    float: left;
+    position: relative;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.content_list ul li .comm_head .comm_info .comm_evaluate .comm_praise img {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    margin-top: 2px;
+}
+
+.content_list ul li .comm_head .comm_info .comm_evaluate .comm_praise p {
+    float: left;
+    font-size: 14px;
+    margin: 0 4px;
+    color: #00c226;
+}
+
+.content_list ul li .comm_head .comm_time {
+    float: right;
+    margin-right: 17px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.content_list ul li .comm_reply {
+    position: relative;
+    margin: 15px 15px 10px 50px;
+    background-color: #F8F8F8;
+    border: 1px solid #F2F2F2;
+
+}
+
+.content_list ul li .comm_reply::-webkit-scrollbar {
+    width: 12px;
+}
+
+.content_list ul li .comm_reply::-webkit-scrollbar-track {
+    background-color: #F9F9F9;
+}
+
+.content_list ul li .comm_reply::-webkit-scrollbar-thumb {
+    background-color: #EAEAEA;
+}
+
+.content_list ul li .comm_reply .comm_reply_box {
+    height: 72px;
+    margin: 5px;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.content_list ul li .comm_reply .comm_reply_box textarea {
+    width: 580px;
+    height: 40px;
+    padding: 1px 8px;
+    font-size: 16px;
+    color: #666;
+    word-break: break-all;
+}
+
+.content_list ul li .comm_reply .comm_reply_box .comm_submit {
+    float: right;
+    margin-right: 5px;
+}
+
+.content_list ul li .comm_reply .comm_sub_reply_box {
+    height: 72px;
+    margin: 5px;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.content_list ul li .comm_reply .comm_sub_reply_box textarea {
+    width: 580px;
+    height: 40px;
+    padding: 1px 8px;
+    font-size: 16px;
+    color: #666;
+    word-break: break-word;
+}
+
+.content_list ul li .comm_reply .comm_sub_reply_box .comm_submit {
+    float: right;
+    margin-right: 5px;
+}
+
+.content_list ul li .comm_reply ul {
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.content_list ul li .comm_reply ul::-webkit-scrollbar {
+    width: 12px;
+}
+
+.content_list ul li .comm_reply ul::-webkit-scrollbar-track {
+    background-color: #F9F9F9;
+}
+
+.content_list ul li .comm_reply ul::-webkit-scrollbar-thumb {
+    background-color: #EAEAEA;
+}
+
+.content_list ul li .comm_reply ul li .comm_user_item {
+    position: relative;
+    overflow: hidden;
+}
+
+.content_list ul li .comm_reply ul li .comm_user_item .comm_user_reply {
+    float: left;
+    position: relative;
+}
+
+.content_list ul li .comm_reply ul li .comm_user_item .comm_user_reply div a {
+    margin-right: 10px;
+}
+
+.content_list ul li .comm_reply ul li .comm_user_item .comm_user_reply .comm_user_name {
+    float: left;
+}
+
+.content_list ul li .comm_reply ul li .comm_user_item .comm_user_reply .comm_user_reply_content {
+    float: left;
+    max-width: 400px;
+    color: #999;
+    word-break: break-word;
+}
+
+.content_list ul li .comm_reply ul li .comm_user_item .comm_opration {
+    float: right;
+    position: relative;
+    display: none;
+}
+
+/*.content_list ul li .comm_reply ul li .comm_user_item .comm_opration:hover {*/
+/*display: block;*/
+/*}*/
+
+.content_list ul li .comm_reply ul li .comm_user_item .comm_opration .comm_opration_img {
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin-right: 6px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.content_list ul li .comm_reply ul li .comm_user_item .comm_opration .comm_opration_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.content_list ul li .comm_reply ul li .comm_user_item .comm_opration p {
+    float: left;
+}
+
+.content_list ul li .comm_reply ul li .comm_user_item .comm_opration p a {
+    font-size: 14px;
+}
+
+.content_list ul li .comm_reply ul li .comm_sub_reply_box textarea {
+    width: 540px;
+    font-size: 16px;
+    word-break: break-all;
+}
+
+.comm_reply_time {
+    float:right;
+    font-size:14px;
+    color:#999;
+}

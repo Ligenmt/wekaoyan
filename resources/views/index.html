@@ -1,0 +1,83 @@
+<!doctype html>
+
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jQuery - jTemplates</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://jtemplates.tpython.com/trunk/jquery-jtemplates_uncompressed.js"></script>
+    <style type="text/css">
+        .container{
+            width: 1000px;
+            height: 600px;
+            margin: 0 auto;
+        }
+        .template{
+            display: none;
+        }
+        table{
+            background-color: #fff;
+        }
+        table tr th{
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+        }
+        table tr td{
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+    </style>
+    <script type="text/javascript">
+        var data ={
+            TotalCount:64,
+            Lists:[
+                {Id:'2001' ,Title:'新闻11',CreateDate:'2011-08-08'},
+                {Id:'2002' ,Title:'新闻22',CreateDate:'2011-08-08'},
+                {Id:'2003' ,Title:'新闻33',CreateDate:'2011-08-08'},
+                {Id:'2004' ,Title:'新闻44',CreateDate:'2011-08-08'},
+                {Id:'2005' ,Title:'新闻55',CreateDate:'2011-08-08'},
+            ]
+        };
+        $(document).ready(function() {
+            // 设置模板
+            $("#result").setTemplateElement("templateContainer");
+
+            // 处理模板
+            $("#result").processTemplate(data);
+        });
+    </script>
+</head>
+<body>
+<div id="result">
+</div>
+<textarea id="templateContainer" style="display: none;">
+        <table border="1">
+            <tr>
+                <td>
+                    Id
+                </td>
+                <td>
+                    标题
+                </td>
+                <td>
+                    发布时间
+                </td>
+            </tr>
+            {#foreach $T.Lists as row}
+            <tr>
+                <td>
+                    {$T.row.Id}
+                </td>
+                <td>
+                    {$T.row.Title}
+                </td>
+                <td>
+                    {$T.row.CreateDate}
+                </td>
+            </tr>
+            {#/for}
+        </table>
+    </textarea>
+</body>
+</html>

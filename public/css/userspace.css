@@ -1,0 +1,1246 @@
+@charset "utf-8";
+
+.main_container {
+    width: 944px;
+    margin: 0 auto;
+}
+
+.main_container a {
+    font-size: 16px;
+    color: #006EFF;
+}
+
+.main_container a:hover {
+    color: #0054c2;
+}
+
+.content {
+    width: 714px;
+    border: 1px solid #F2F2F2;
+    float: left;
+    background-color: #fffeff;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    min-height: 600px;
+}
+
+.content .content_head {
+    height: 50px;
+    border-bottom: 1px solid #F2F2F2;
+    line-height: 50px;
+    position: relative;
+    padding: 0 35px;
+}
+
+.content .content_head .items {
+    float: left;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.content .content_head .items ul li {
+    float: left;
+    margin-right: 25px;
+}
+
+.content .content_head .items ul li a {
+    font-size: 16px;
+    color: #888;
+}
+
+.content .content_head .items ul .selected {
+    border-bottom: 2px solid #006eff;
+}
+
+.content .content_head .items ul .selected a {
+    color: #006Eff;
+}
+
+.content .contact_box {
+    margin-left: 40px;
+    margin-top: 44px;
+}
+
+.content .contact_box .user_info {
+    position: relative;
+    width: 654px;
+    margin-right: 28px;
+    height: 109px;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.content .contact_box .user_info .user_avatar {
+    float: left;
+    width: 84px;
+    height: 84px;
+    cursor: pointer;
+}
+
+.content .contact_box .user_info .user_avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .contact_box .user_info .user_name {
+    float: left;
+    height: 58px;
+    line-height: 58px;
+    margin-left: 28px;
+    margin-top: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.content .contact_box .user_info .user_name p {
+    display: inline-block;
+    font-size: 20px;
+    color: #333;
+    padding: 0 8px;
+}
+
+.content .contact_box .user_info .change_ico {
+    float: left;
+    height: 58px;
+    line-height: 58px;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.content .contact_box .user_info .change_ico a {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.content .contact_box .user_contact {
+    margin-top: 26px;
+    margin-left: 110px;
+}
+
+.content .contact_box .user_contact .contact_item {
+    height: 62px;
+    line-height: 62px;
+    width: 544px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.content .contact_box .user_contact .contact_item .contact {
+    width: 60px;
+    margin-right: 44px;
+    color: #666;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.content .contact_box .user_contact .contact_item .contact_value {
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #666;
+    font-size: 14px;
+    min-width: 150px;
+    height: 26px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.content .contact_box .user_contact .contact_item .change_ico {
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.content .contact_box .user_contact .contact_item .change_ico a {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.content .edit_box {
+    margin: 34px 42px;
+
+}
+
+.content .edit_box .edit_item {
+    padding-left: 10px;
+    height: 62px;
+    line-height: 62px;
+    position: relative;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.content .edit_box .edit_item div {
+    float: left;
+}
+
+.content .edit_box .edit_item .contact {
+    width: 70px;
+    margin-right: 40px;
+    color: #666;
+    font-size: 14px;
+}
+
+.content .edit_box .edit_item .contact_value {
+    min-width: 80px;
+    margin-right: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+.content .edit_box .edit_item .edit_btn a {
+    font-size: 14px;
+}
+
+.content .edit_box .edit_item .edit_btn a:link {
+    text-decoration: underline;
+}
+
+.content .cllection_box {
+
+}
+
+.content .cllection_box ul li {
+    padding: 20px 20px 0px 20px;
+}
+
+.content .cllection_box ul li .content_title {
+    font-size: 22px;
+    max-width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0 16px;
+}
+
+.content .cllection_box ul li .content_user {
+    margin-top: 18px;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    padding: 0 16px;
+}
+
+.content .cllection_box ul li .content_user div {
+    float: left;
+}
+
+.content .cllection_box ul li .content_user .user_avatar {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.content .cllection_box ul li .content_user .user_avatar a img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .cllection_box ul li .content_user .user_name {
+    margin-right: 15px;
+}
+
+.content .cllection_box ul li .content_user .user_name a {
+    font-size: 14px;
+}
+
+.content .cllection_box ul li .content_user .update_time {
+    font-size: 14px;
+    color: #999;
+}
+
+.content .cllection_box ul li .content_summary {
+    min-height: 34px;
+    margin: 18px 0 22px 0;
+    font-size: 14px;
+    color: #666;
+    padding: 0 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.content .cllection_box ul li .comment {
+    position: relative;
+    overflow: hidden;
+    padding: 0 16px 10px 16px;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.content .cllection_box ul li .comment div {
+    float: left;
+    margin-right: 15px;
+    position: relative;
+}
+
+.content .cllection_box ul li .comment div .comment_ico {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+.content .cllection_box ul li .comment div .comment_ico img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .cllection_box ul li .comment div .comment_des {
+    float: left;
+    margin-right: 6px;
+    margin-top: 1px;
+    font-size: 14px;
+    color: #006EFF;
+}
+
+.content .cllection_box ul li .comment div .comment_num {
+    float: left;
+    margin-top: 1px;
+    font-size: 14px;
+    color: #006EFF;
+}
+
+.content .cllection_box ul .selected {
+    background-color: #F2F2F2;
+}
+
+.deleteme {
+    cursor: pointer;
+}
+
+/*************change_telphone_box*********************/
+.cover_box .change_telphone_box {
+    width: 364px;
+    height: 282px;
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+    left: 50%;
+    margin-left: -182px;
+    background-color: #fff;
+    z-index: 99;
+    position: fixed;
+    overflow: hidden;
+}
+
+.cover_box .change_telphone_box .box_head {
+    overflow: hidden;
+    height: 38px;
+    line-height: 38px;
+    border-top: 3px solid #006eff;
+    border-bottom: 2px solid #F5F5F5;
+}
+
+.cover_box .change_telphone_box .box_head .box_title {
+    float: left;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.cover_box .change_telphone_box .box_head .close {
+    float: right;
+    font-size: 16px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.cover_box .change_telphone_box .box_body {
+    margin: 15px 15px;
+}
+
+.cover_box .change_telphone_box .box_body .item {
+    margin: 10px 0;
+}
+
+.cover_box .change_telphone_box .box_body .item .item_name {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cover_box .change_telphone_box .box_body .item .item_long_input input {
+    font-size: 16px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+    color: #999;
+}
+
+.cover_box .change_telphone_box .box_body .item .item_short_input {
+    position: relative;
+}
+
+.cover_box .change_telphone_box .box_body .item .item_short_input input {
+    font-size: 16px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+    color: #999;
+}
+
+.cover_box .change_telphone_box .box_body .item .item_short_input .getcode {
+    position: absolute;
+    top: 10px;
+    left: 236px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+}
+
+.cover_box .change_telphone_box .box_body .item .item_short_input .getcode a {
+    font-size: 14px;
+    color: #006eff;
+}
+
+/*************new_telphone_box*********************/
+.cover_box .new_telphone_box {
+    width: 364px;
+    height: 282px;
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+    left: 50%;
+    margin-left: -182px;
+    background-color: #fff;
+    z-index: 99;
+    position: fixed;
+    overflow: hidden;
+}
+
+.cover_box .new_telphone_box .box_head {
+    overflow: hidden;
+    height: 38px;
+    line-height: 38px;
+    border-top: 3px solid #006eff;
+    border-bottom: 2px solid #F5F5F5;
+}
+
+.cover_box .new_telphone_box .box_head .box_title {
+    float: left;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.cover_box .new_telphone_box .box_head .close {
+    float: right;
+    font-size: 16px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.cover_box .new_telphone_box .box_body {
+    margin: 15px 15px;
+}
+
+.cover_box .new_telphone_box .box_body .item {
+    margin: 10px 0;
+}
+
+.cover_box .new_telphone_box .box_body .item .item_name {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cover_box .new_telphone_box .box_body .item .item_long_input input {
+    font-size: 16px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+    color: #999;
+}
+
+.cover_box .new_telphone_box .box_body .item .item_short_input {
+    position: relative;
+}
+
+.cover_box .new_telphone_box .box_body .item .item_short_input input {
+    font-size: 16px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+    color: #999;
+}
+
+.cover_box .new_telphone_box .box_body .item .item_short_input .getcode {
+    position: absolute;
+    top: 10px;
+    left: 236px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+}
+
+.cover_box .new_telphone_box .box_body .item .item_short_input .getcode a {
+    font-size: 14px;
+    color: #006eff;
+}
+
+/*************change_email_box*********************/
+.cover_box .change_email_box {
+    width: 364px;
+    height: 282px;
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+    left: 50%;
+    margin-left: -182px;
+    background-color: #fff;
+    z-index: 99;
+    position: fixed;
+    overflow: hidden;
+}
+
+.cover_box .change_email_box .box_head {
+    overflow: hidden;
+    height: 38px;
+    line-height: 38px;
+    border-top: 3px solid #006eff;
+    border-bottom: 2px solid #F5F5F5;
+}
+
+.cover_box .change_email_box .box_head .box_title {
+    float: left;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.cover_box .change_email_box .box_head .close {
+    float: right;
+    font-size: 16px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.cover_box .change_email_box .box_body {
+    margin: 15px 15px;
+}
+
+.cover_box .change_email_box .box_body .item {
+    margin: 10px 0;
+}
+
+.cover_box .change_email_box .box_body .item .item_name {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cover_box .change_email_box .box_body .item .item_long_input input {
+    font-size: 16px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+    color: #999;
+}
+
+.cover_box .change_email_box .box_body .item .item_short_input {
+    position: relative;
+}
+
+.cover_box .change_email_box .box_body .item .item_short_input input {
+    font-size: 16px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+    color: #999;
+}
+
+.cover_box .change_email_box .box_body .item .item_short_input .getcode {
+    position: absolute;
+    top: 10px;
+    left: 236px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+}
+
+.cover_box .change_email_box .box_body .item .item_short_input .getcode a {
+    font-size: 14px;
+    color: #006eff;
+}
+
+/*************new_email_box*********************/
+.cover_box .new_email_box {
+    width: 364px;
+    height: 282px;
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+    left: 50%;
+    margin-left: -182px;
+    background-color: #fff;
+    z-index: 99;
+    position: fixed;
+    overflow: hidden;
+}
+
+.cover_box .new_email_box .box_head {
+    overflow: hidden;
+    height: 38px;
+    line-height: 38px;
+    border-top: 3px solid #006eff;
+    border-bottom: 2px solid #F5F5F5;
+}
+
+.cover_box .new_email_box .box_head .box_title {
+    float: left;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.cover_box .new_email_box .box_head .close {
+    float: right;
+    font-size: 16px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.cover_box .new_email_box .box_body {
+    margin: 15px 15px;
+}
+
+.cover_box .new_email_box .box_body .item {
+    margin: 10px 0;
+}
+
+.cover_box .new_email_box .box_body .item .item_name {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cover_box .new_email_box .box_body .item .item_long_input input {
+    font-size: 16px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+    color: #999;
+}
+
+.cover_box .new_email_box .box_body .item .item_short_input {
+    position: relative;
+}
+
+.cover_box .new_email_box .box_body .item .item_short_input input {
+    font-size: 16px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+    color: #999;
+}
+
+.cover_box .new_email_box .box_body .item .item_short_input .getcode {
+    position: absolute;
+    top: 10px;
+    left: 236px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+}
+
+.cover_box .new_email_box .box_body .item .item_short_input .getcode a {
+    font-size: 14px;
+    color: #006eff;
+}
+
+/*************change_pwd_box*********************/
+.cover_box .change_pwd_box {
+    width: 364px;
+    height: 282px;
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+    left: 50%;
+    margin-left: -182px;
+    background-color: #fff;
+    z-index: 99;
+    position: fixed;
+    overflow: hidden;
+}
+
+.cover_box .change_pwd_box .box_head {
+    overflow: hidden;
+    height: 38px;
+    line-height: 38px;
+    border-top: 3px solid #006eff;
+    border-bottom: 2px solid #F5F5F5;
+}
+
+.cover_box .change_pwd_box .box_head .box_title {
+    float: left;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.cover_box .change_pwd_box .box_head .close {
+    float: right;
+    font-size: 16px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.cover_box .change_pwd_box .box_body {
+    margin: 15px 15px;
+}
+
+.cover_box .change_pwd_box .box_body .item {
+    margin: 10px 0;
+}
+
+.cover_box .change_pwd_box .box_body .item .item_name {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cover_box .change_pwd_box .box_body .item .item_long_input input {
+    font-size: 16px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+    color: #999;
+}
+
+.cover_box .change_pwd_box .box_body .item .item_short_input {
+    position: relative;
+}
+
+.cover_box .change_pwd_box .box_body .item .item_short_input input {
+    font-size: 16px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+    color: #999;
+}
+
+.cover_box .change_pwd_box .box_body .item .item_short_input .getcode {
+    position: absolute;
+    top: 10px;
+    left: 236px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+}
+
+.cover_box .change_pwd_box .box_body .item .item_short_input .getcode a {
+    font-size: 14px;
+    color: #006eff;
+}
+
+/*************new_pwd_box*********************/
+.cover_box .new_pwd_box {
+    width: 364px;
+    height: 282px;
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+    left: 50%;
+    margin-left: -182px;
+    background-color: #fff;
+    z-index: 99;
+    position: fixed;
+    overflow: hidden;
+}
+
+.cover_box .new_pwd_box .box_head {
+    overflow: hidden;
+    height: 38px;
+    line-height: 38px;
+    border-top: 3px solid #006eff;
+    border-bottom: 2px solid #F5F5F5;
+}
+
+.cover_box .new_pwd_box .box_head .box_title {
+    float: left;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.cover_box .new_pwd_box .box_head .close {
+    float: right;
+    font-size: 16px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.cover_box .new_pwd_box .box_body {
+    margin: 15px 15px;
+}
+
+.cover_box .new_pwd_box .box_body .item {
+    margin: 10px 0;
+}
+
+.cover_box .new_pwd_box .box_body .item .item_name {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cover_box .new_pwd_box .box_body .item .item_input input {
+    font-size: 16px;
+    width: 316px;
+    height: 36px;
+    padding: 0 8px;
+    color: #999;
+}
+
+.content .contact_box .user_info .user_avatar .avatar_box {
+    position: absolute;
+    width: 205px;
+    height: 140px;
+    background-color: #e2e2e2;
+    z-index: 99;
+    overflow: hidden;
+    left: -40px;
+    top: 90px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.content .contact_box .user_info .user_avatar .avatar_box img {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    float: left;
+    cursor: pointer;
+}
+
+.content .contact_box .user_info .user_avatar .avatar_box img:hover {
+    box-shadow: 1px 1px 1px #888888;
+}
+
+.comm_box ul li {
+    margin: 10px 20px 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.comm_box ul li .comm_head {
+    overflow: hidden;
+    margin-right: 17px;
+    position: relative;
+}
+
+.comm_box ul li .comm_head .comm_avatar {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.comm_box ul li .comm_head .comm_avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.comm_box ul li .comm_head .comm_info {
+    float: left;
+    margin-left: 10px;
+}
+
+.comm_box ul li .comm_head .comm_info .comm_title {
+    font-size: 20px;
+    margin-top: 5px;
+    max-width: 370px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    #white-space: nowrap;
+    word-break: break-all;
+    cursor: pointer;
+    text-align: justify;
+}
+
+.comm_box ul li .comm_head .comm_info .comm_evaluate {
+    position: relative;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.comm_box ul li .comm_head .comm_info .comm_evaluate .comm_replay {
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.comm_box ul li .comm_head .comm_info .comm_evaluate .comm_replay img {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    margin-top: 2px;
+}
+
+.comm_box ul li .comm_head .comm_info .comm_evaluate .comm_replay p {
+    float: left;
+    font-size: 14px;
+    margin: 0 4px;
+    color: #006EFF;
+}
+
+.comm_box ul li .comm_head .comm_info .comm_evaluate .comm_praise {
+    float: left;
+    position: relative;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.comm_box ul li .comm_head .comm_info .comm_evaluate .comm_praise img {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    margin-top: 2px;
+}
+
+.comm_box ul li .comm_head .comm_info .comm_evaluate .comm_praise p {
+    float: left;
+    font-size: 14px;
+    margin: 0 4px;
+    color: #00c226;
+}
+
+.comm_box ul li .comm_head .comm_time {
+    float: right;
+    margin-right: 17px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.comm_box ul li .comm_reply {
+    position: relative;
+    margin: 15px 15px 10px 50px;
+    background-color: #F8F8F8;
+    border: 1px solid #F2F2F2;
+
+}
+
+.comm_box ul li .comm_reply::-webkit-scrollbar {
+    width: 12px;
+}
+
+.comm_box ul li .comm_reply::-webkit-scrollbar-track {
+    background-color: #F9F9F9;
+}
+
+.comm_box ul li .comm_reply::-webkit-scrollbar-thumb {
+    background-color: #EAEAEA;
+}
+
+.comm_box ul li .comm_reply .comm_reply_box {
+    height: 72px;
+    margin: 5px;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.comm_box ul li .comm_reply .comm_reply_box textarea {
+    width: 580px;
+    height: 40px;
+    padding: 1px 8px;
+    font-size: 16px;
+    color: #666;
+    word-break: break-word;
+}
+
+.comm_box ul li .comm_reply .comm_reply_box .comm_submit {
+    float: right;
+    margin-right: 5px;
+}
+
+.comm_box ul li .comm_reply .comm_sub_reply_box {
+    height: 72px;
+    margin: 5px;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.comm_box ul li .comm_reply .comm_sub_reply_box textarea {
+    width: 580px;
+    height: 40px;
+    padding: 1px 8px;
+    font-size: 16px;
+    color: #666;
+    word-break: break-word;
+}
+
+.comm_box ul li .comm_reply .comm_sub_reply_box .comm_submit {
+    float: right;
+    margin-right: 5px;
+}
+
+.comm_box ul li .comm_reply ul {
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.comm_box ul li .comm_reply ul::-webkit-scrollbar {
+    width: 12px;
+}
+
+.comm_box ul li .comm_reply ul::-webkit-scrollbar-track {
+    background-color: #F9F9F9;
+}
+
+.comm_box ul li .comm_reply ul::-webkit-scrollbar-thumb {
+    background-color: #EAEAEA;
+}
+
+.comm_box ul li .comm_reply ul li .comm_user_item {
+    position: relative;
+    overflow: hidden;
+}
+
+.comm_box ul li .comm_reply ul li .comm_user_item .comm_user_reply {
+    float: left;
+    position: relative;
+}
+
+.comm_box ul li .comm_reply ul li .comm_user_item .comm_user_reply div a {
+    margin-right: 10px;
+}
+
+.comm_box ul li .comm_reply ul li .comm_user_item .comm_user_reply .comm_user_name {
+    float: left;
+}
+
+.comm_box ul li .comm_reply ul li .comm_user_item .comm_user_reply .comm_user_reply_content {
+    float: left;
+    max-width: 400px;
+    color: #999;
+    word-break: break-word;
+}
+
+.comm_box ul li .comm_reply ul li .comm_user_item .comm_opration {
+    float: right;
+    position: relative;
+}
+
+.comm_box ul li .comm_reply ul li .comm_user_item .comm_opration .comm_opration_img {
+    width: 14px;
+    height: 14px;
+    float: left;
+    margin-right: 6px;
+    margin-top: 2px;
+}
+
+.comm_box ul li .comm_reply ul li .comm_user_item .comm_opration .comm_opration_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.comm_box ul li .comm_reply ul li .comm_user_item .comm_opration p {
+    float: left;
+}
+
+.comm_box ul li .comm_reply ul li .comm_user_item .comm_opration p a {
+    font-size: 14px;
+}
+
+.comm_box ul li .comm_reply ul li .comm_sub_reply_box textarea {
+    width: 540px;
+    font-size: 16px;
+    word-break: break-word;
+}
+
+.exp_box ul li {
+    padding: 20px 20px 0px 20px;
+}
+
+.exp_box ul .selected {
+    background-color: #F2F2F2;
+}
+
+.exp_box ul li .content_title {
+    font-size: 22px;
+    max-width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0 16px;
+}
+
+.exp_box ul li .content_user {
+    margin-top: 18px;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    padding: 0 16px;
+}
+
+.exp_box ul li .content_user div {
+    float: left;
+}
+
+.exp_box ul li .content_user .user_avatar {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.exp_box ul li .content_user .user_avatar a img {
+    width: 100%;
+    height: 100%;
+}
+
+.exp_box ul li .content_user .user_name {
+    margin-right: 15px;
+}
+
+.exp_box ul li .content_user .user_name a {
+    font-size: 14px;
+}
+
+.exp_box ul li .content_user .update_time {
+    font-size: 14px;
+    color: #999;
+}
+
+.exp_box ul li .content_summary {
+    min-height: 34px;
+    margin: 18px 0 22px 0;
+    font-size: 14px;
+    color: #666;
+    padding: 0 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.exp_box ul li .comment {
+    position: relative;
+    overflow: hidden;
+    padding: 0 16px 10px 16px;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.exp_box ul li .comment div {
+    float: left;
+    margin-right: 15px;
+    position: relative;
+}
+
+.exp_box ul li .comment div .comment_ico {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+.exp_box ul li .comment div .comment_ico img {
+    width: 100%;
+    height: 100%;
+}
+
+.exp_box ul li .comment div .comment_des {
+    float: left;
+    margin-right: 6px;
+    margin-top: 1px;
+    font-size: 14px;
+    color: #006EFF;
+}
+
+.exp_box ul li .comment div .comment_num {
+    float: left;
+    margin-top: 1px;
+    font-size: 14px;
+    color: #006EFF;
+}
+
+.collection_box ul li {
+    padding: 20px 20px 0px 20px;
+}
+
+.collection_box ul .selected {
+    background-color: #F2F2F2;
+}
+
+.collection_box ul li .content_title {
+    font-size: 22px;
+    max-width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0 16px;
+}
+
+.collection_box ul li .content_user {
+    margin-top: 18px;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    padding: 0 16px;
+}
+
+.collection_box ul li .content_user div {
+    float: left;
+}
+
+.collection_box ul li .content_user .user_avatar {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.collection_box ul li .content_user .user_avatar a img {
+    width: 100%;
+    height: 100%;
+}
+
+.collection_box ul li .content_user .user_name {
+    margin-right: 15px;
+}
+
+.collection_box ul li .content_user .user_name a {
+    font-size: 14px;
+}
+
+.collection_box ul li .content_user .update_time {
+    font-size: 14px;
+    color: #999;
+}
+
+.collection_box ul li .content_summary {
+    min-height: 34px;
+    margin: 18px 0 22px 0;
+    font-size: 14px;
+    color: #666;
+    padding: 0 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.collection_box ul li .comment {
+    position: relative;
+    overflow: hidden;
+    padding: 0 16px 10px 16px;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.collection_box ul li .comment div {
+    float: left;
+    margin-right: 15px;
+    position: relative;
+}
+
+.collection_box ul li .comment div .comment_ico {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+.collection_box ul li .comment div .comment_ico img {
+    width: 100%;
+    height: 100%;
+}
+
+.collection_box ul li .comment div .comment_des {
+    float: left;
+    margin-right: 6px;
+    margin-top: 1px;
+    font-size: 14px;
+    color: #006EFF;
+}
+
+.collection_box ul li .comment div .comment_num {
+    float: left;
+    margin-top: 1px;
+    font-size: 14px;
+    color: #006EFF;
+}
